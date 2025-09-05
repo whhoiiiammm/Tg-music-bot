@@ -8,9 +8,9 @@ from pyrogram.types import Message
 
 from yt_dlp import YoutubeDL
 
-API_ID = int(os.getenv("API_ID", "12345"))          # Replace or export
-API_HASH = os.getenv("API_HASH", "your_api_hash")   # Replace or export
-BOT_TOKEN = os.getenv("BOT_TOKEN", "your_bot_token")# Replace or export
+API_ID = int(os.getenv("API_ID", "25423861"))          # Replace or export
+API_HASH = os.getenv("API_HASH", "3fd8716928ae710f876443cecc93d3fa")   # Replace or export
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7902611976:AAGuD4E1WQUBlVSC9cWJNXEZ9l6QttLPpvA")# Replace or export
 
 app = Client(
     "music-bot",
