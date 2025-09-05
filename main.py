@@ -10,7 +10,7 @@ from yt_dlp import YoutubeDL
 
 API_ID = int(os.getenv("API_ID", "25423861"))          # Replace or export
 API_HASH = os.getenv("API_HASH", "3fd8716928ae710f876443cecc93d3fa")   # Replace or export
-BOT_TOKEN = os.getenv("BOT_TOKEN", "6056789669:AAEN12sBYLyJmdWRETHDlv5Ec49Q5mxmCFw")# Replace or export
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7902611976:AAGBiNkkW2Om-Xhe8BX3WoZ3nzSf3FUuEnM")# Replace or export
 
 app = Client(
     "music-bot",
